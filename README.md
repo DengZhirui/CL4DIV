@@ -11,7 +11,7 @@ python util/T5_data_preprocess.py --mode gen_data --bert_model_path ../bert-base
 python util/seq_data_preprocess.py --bert_model_path ../bert-base-uncased/ --bert_emb_len 256
 ```
 
-### Training the contrastive learning model. 
+### Training the contrastive learning tasks. 
 ```
 python run.py --mode cl_T5 --fold 1
 python run.py --mode cl_list --fold 1

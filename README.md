@@ -1,4 +1,6 @@
 # CL4DIV
-Implementations of ```CL4DIV: A Contrastive Learning Framework for Search Result Diversification]```
+Implementations of paper ```CL4DIV: A Contrastive Learning Framework for Search Result Diversification```
 
-How to use it.
+
+### Others
+The dataset and models will be released after the paper is accepted. 

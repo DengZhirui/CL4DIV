@@ -25,5 +25,8 @@ python run.py --mode cl_div --fold 1
 ### Visualization
 To investigate the effect of contrastive learning on data representations, we visualize the document representation distribution before and after contrastive learning. We randomly select a query from the dataset and map the document representations to 2-dimensional vectors via principal component analysis (PCA). The results are illustrated in Figure~\ref{fig:visual}, where documents with the same subtopics are marked in the same color. 
 
-As shown in the left side, the initialized distribution of documents with the same subtopics is more scattered, whereas documents containing different subtopics are mixed together. After contrastive learning, we notice two changes: (1) Documents covering the same subtopics are clustered together. For query \#61, documents covering the 3rd subtopic (in blue) become closer after contrastive learning. 
-(2)~Documents with different subtopics are separated. Documents containing subtopics 3 and 4 (in blue and purple) move far apart. 
+![Image text](https://github.com/DengZhirui/CL4DIV/blob/master/visualization_query_61.pdf)
+
+As shown in the left side, the initialized distribution of documents with the same subtopics is more scattered, whereas documents containing different subtopics are mixed together. After contrastive learning, we notice two changes: 
+(1) Documents covering the same subtopics are clustered together. For query \#61, documents covering the 3rd subtopic (in blue) become closer after contrastive learning. 
+(2)Documents with different subtopics are separated. Documents containing subtopics 3 and 4 (in blue and purple) move far apart. 

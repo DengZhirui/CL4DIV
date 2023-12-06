@@ -22,7 +22,7 @@ python run.py --mode cl_list --fold 1
 python run.py --mode cl_div --fold 1
 ```
 
-### Visualization
+## Visualization
 To investigate the effect of contrastive learning on data representations, we visualize the document representation distribution before and after contrastive learning. We randomly select a query from the dataset and map the document representations to 2-dimensional vectors via principal component analysis (PCA). The results are illustrated in **Figure 1**, where documents with the same subtopics are marked in the same color. 
 
 ![image text](https://github.com/DengZhirui/CL4DIV/blob/master/visual_query_61.png)

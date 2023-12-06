@@ -29,9 +29,9 @@ To investigate the effect of contrastive learning on data representations, we vi
 
 As shown in the left side, the initialized distribution of documents with the same subtopics is more scattered, whereas documents containing different subtopics are mixed together. After contrastive learning, we notice two changes: 
 
-(1) Documents covering the same subtopics are clustered together. For query \#61, documents covering the 3rd subtopic (in blue) become closer after contrastive learning. 
+* Documents covering the same subtopics are clustered together. For query \#61, documents covering the 3rd subtopic (in blue) become closer after contrastive learning. 
 
-(2)Documents with different subtopics are separated. Documents containing subtopics 3 and 4 (in blue and purple) move far apart. 
+* Documents with different subtopics are separated. Documents containing subtopics 3 and 4 (in blue and purple) move far apart. 
 
 ## Citations
 If you use the code, please cite the following paper:

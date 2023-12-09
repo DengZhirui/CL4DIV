@@ -2,6 +2,7 @@
 Source code of paper ```CL4DIV: A Contrastive Learning Framework for Search Result Diversification```
 
 ## Quick Start
+It should be noted that to process 50 candidate documents at once efficiently, we set the maximum document length for the two encoders as 256 and divide each document into 8 passages for the DOC task. Longer documents would be considered in the future. The pretraining stage can be done offline and the efficiency of the online diversified ranking will not be affected. 
 ### Prepare for the training data. 
 ```
 python util/data_preprocess.py --mode data_process --bert_model_path ../bert-base-uncased/
